@@ -1,0 +1,15 @@
+{
+    "name": "cnaveeenkumar/topic-suggestions",
+    "description": "AI Topic Suggest Plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": "7.4",
+        "rajanvijayan/ai-engine": "dev-main"
+    },
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Cnaveeenkumar\\TopicSuggestions\\": "src/"
+        }
+    }
+}
