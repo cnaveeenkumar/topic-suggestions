@@ -17,6 +17,7 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 
 use TopicSuggestions\Admin\SettingsPage;
 use TopicSuggestions\Admin\SuggestTopics;
+use TopicSuggestions\Generator\TopicGenerator;
 
 // Initialize the plugin
 function ai_topic_generator_init() {
